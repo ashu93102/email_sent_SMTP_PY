@@ -3,7 +3,7 @@ import pandas
 import datetime as dt
 import smtplib
 
-MY_EMAIL = "dipusharma8800@gmail.com"
+MY_EMAIL = "123@gmail.com"
 MY_PASSWORD = "123456"
 PLACEHOLDER = "[name]"
 files = ["birthday_template/template1.txt","birthday_template/template2.txt","birthday_template/template3.txt"]
@@ -39,6 +39,6 @@ for i in data:
                 else:
                     mail.sendmail(
                         from_addr=MY_EMAIL,
-                        to_addrs="ashu93102@yahoo.com",
+                        to_addrs="6789@gmail.com",
                         msg=f"Subject: Happy Birthday My Dear {i["name"]}\n\n{birthday_letter}"
                     )
